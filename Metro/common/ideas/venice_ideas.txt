@@ -1,0 +1,49 @@
+ideas = {
+	country = {
+		extensive_flooding_civilian = {
+			picture = GFX_idea_bandits
+
+			allowed = {
+			}
+
+			removal_cost = -1
+
+			modifier = {
+                 production_speed_buildings_factor = -0.5
+                 consumer_goods_factor = 0.1
+                 global_building_slots_factor = -0.10
+                 
+	        }	
+	    }
+
+        extensive_flooding_military = {
+			picture = GFX_idea_bandits
+
+			allowed = {
+			}
+
+			removal_cost = -1
+
+			modifier = {
+                max_dig_in = 5
+                 army_core_defence_factor = -0.10
+                 army_core_attack_factor = -0.20
+                 attrition = 0.2
+	        }	
+	    }
+
+         corrupted_economy = {
+			picture = GFX_idea_bandits
+
+			allowed = {
+			}
+
+			removal_cost = -1
+
+			modifier = {
+                stability_factor = -0.3
+                trade_opinion_factor = -0.25
+	        }	
+	    }
+	}
+}

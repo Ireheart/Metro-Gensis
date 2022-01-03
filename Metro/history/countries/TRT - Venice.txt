@@ -10,7 +10,9 @@ set_war_support = 0.4
 set_country_flag = is_bandit_nation
 
 add_ideas = {
-	bandits
+	extensive_flooding_civilian
+	extensive_flooding_military
+	corrupted_economy
 }
 
 set_politics = {
