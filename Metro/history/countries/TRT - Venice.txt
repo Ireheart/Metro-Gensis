@@ -11,7 +11,7 @@ set_country_flag = is_bandit_nation
 
 add_ideas = {
 	extensive_flooding_civilian
-	extensive_flooding_military
+	shrimp_invasion
 	corrupted_economy
 }
 

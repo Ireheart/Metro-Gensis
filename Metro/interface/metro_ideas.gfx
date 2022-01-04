@@ -146,6 +146,16 @@ spriteTypes = {
 	}
 
 	spriteType = {
+	name = "GFX_idea_flooding"
+	texturefile = "gfx/interface/ideas/flooding.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_shrimp_invasion"
+		texturefile = "gfx/interface/ideas/Icon_shrimp_invasion_2.dds"
+	}
+
+	spriteType = {
 		name = "GFX_idea_emerald_city"
 		texturefile = "gfx/interface/ideas/emerald_city.dds"
 	}

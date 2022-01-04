@@ -1,3 +1,9 @@
 ﻿l_english:
  bandits:0 "Bandits"
  bandits_desc:0 "Ranging from simple hooligans and thugs to well armed groups. Bandits are loathed by virtually all metro inhabitants; they are ruthless criminals who will do whatever it takes; stealing, killing or torturing to do what they need to survive."
+
+ ######### Venice Localizaton because of the stupid bug ###############
+
+ extensive_flooding_civilian:0 "Extensive Flooding"
+ shrimp_invasion:0 "Shrimp Incursions"
+ corrupted_economy:0 "Bandit Administration"

@@ -1,7 +1,7 @@
 ideas = {
 	country = {
 		extensive_flooding_civilian = {
-			picture = GFX_idea_bandits
+			picture = GFX_idea_flooding
 
 			allowed = {
 			}
@@ -16,8 +16,8 @@ ideas = {
 	        }	
 	    }
 
-        extensive_flooding_military = {
-			picture = GFX_idea_bandits
+        shrimp_invasion = {
+			picture = GFX_idea_shrimp_invasion
 
 			allowed = {
 			}
@@ -25,10 +25,8 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-                max_dig_in = 5
-                 army_core_defence_factor = -0.10
-                 army_core_attack_factor = -0.20
-                 attrition = 0.2
+                monthly_population = -0.2
+				local_resources_factor = -0.1
 	        }	
 	    }
 
