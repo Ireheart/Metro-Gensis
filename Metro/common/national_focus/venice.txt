@@ -9,4 +9,418 @@ focus_tree = {
 	}
 	continuous_focus_position = { x = 50 y = 1000 }
 	default = no
+######### Military #################
+		focus = {
+		id = TRT_send_out_hunting_parties
+		icon = GFX_pig
+
+		available = {
+		   
+		}
+
+		cost = 6.5
+		x = 2
+		y = 0
+		completion_reward = {
+		
+		}
+	}
+
+		focus = {
+		id = TRT_train_in_the_mud
+		icon = GFX_pig
+
+		prerequisite = {
+			focus = TRT_send_out_hunting_parties
+		}
+
+		cost = 6.5
+		x = -1
+		y = 1
+		completion_reward = {
+		
+		}
+	}
+
+		focus = {
+		id = TRT_the_mariners
+		icon = GFX_pig
+
+		prerequisite = {
+			focus = TRT_train_in_the_mud
+		}
+
+		cost = 6.5
+		x = -1
+		y = 2
+		completion_reward = {
+		
+		}
+	}	
+
+		focus = {
+		id = TRT_send_out_patrol_boats
+		icon = GFX_pig
+
+		prerequisite = {
+			focus = TRT_train_in_the_mud
+		}
+
+		cost = 6.5
+		x = -3
+		y = 2
+		completion_reward = {
+		
+		}
+	}
+
+		focus = {
+		id = TRT_masters_of_the_tide
+		icon = GFX_pig
+
+		prerequisite = {
+			focus = TRT_the_mariners
+			focus = TRT_send_out_patrol_boats
+		}
+
+		cost = 6.5
+		x = -2
+		y = 3
+		completion_reward = {
+		
+		}
+	}
+
+		focus = {
+		id = TRT_guardpoint_trya
+		icon = GFX_pig
+
+		prerequisite = {
+			focus = TRT_send_out_hunting_parties
+		}
+
+		cost = 6.5
+		x = 2
+		y = 1
+		completion_reward = {
+		
+		}
+	}
+
+		focus = {
+		id = TRT_guardpoint_south
+		icon = GFX_pig
+
+		prerequisite = {
+			focus = TRT_guardpoint_trya
+		}
+
+		cost = 6.5
+		x = 2
+		y = 2
+		completion_reward = {
+		
+		}
+	}
+
+		focus = {
+		id = TRT_guardpoint_north
+		icon = GFX_pig
+
+		prerequisite = {
+			focus = TRT_guardpoint_south
+		}
+
+		cost = 6.5
+		x = 2
+		y = 3
+		completion_reward = {
+		
+		}
+	}
+
+
+		focus = {
+		id = TRT_clear_shrimp
+		icon = GFX_pig
+
+		prerequisite = {
+			focus = TRT_send_out_hunting_parties
+		}
+
+		cost = 6.5
+		x = 5
+		y = 1
+		completion_reward = {
+		
+		}
+	}
+
+		focus = {
+		id = TRT_experience_shrimp
+		icon = GFX_pig
+
+		prerequisite = {
+			focus = TRT_clear_shrimp
+		}
+
+		cost = 6.5
+		x = 5
+		y = 2
+		completion_reward = {
+		
+		}
+	}
+
+		focus = {
+		id = TRT_develop_new_weaponry
+		icon = GFX_pig
+
+		prerequisite = {
+			focus = TRT_experience_shrimp
+		}
+
+		cost = 6.5
+		x = 5
+		y = 3
+		completion_reward = {
+		
+		}
+	}
+
+		focus = {
+		id = TRT_radiation_protection
+		icon = GFX_pig
+
+		prerequisite = {
+			focus = TRT_experience_shrimp
+		}
+
+		cost = 6.5
+		x = 7
+		y = 3
+		completion_reward = {
+		
+		}
+	}
+###########Economy#################
+
+	focus = {
+		id = TRT_reinforce_docks
+		icon = GFX_pig
+
+		available = {
+		   
+		}
+
+		cost = 6.5
+		x = 14
+		y = 0
+		completion_reward = {
+		
+		}
+	}
+
+
+	focus = {
+		id = TRT_new_fisheries
+		icon = GFX_pig
+
+		prerequisite = {
+			focus = TRT_reinforce_docks
+		}
+
+		cost = 6.5
+		x = 12
+		y = 1
+		completion_reward = {
+		
+		}
+	}
+
+		focus = {
+		id = TRT_create_drydocks
+		icon = GFX_pig
+
+		prerequisite = {
+			focus = TRT_new_fisheries
+		}
+
+		cost = 6.5
+		x = 12
+		y = 2
+		completion_reward = {
+		
+		}
+	}
+
+	focus = {
+		id = TRT_oil_drilling
+		icon = GFX_pig
+
+		prerequisite = {
+			focus = TRT_new_fisheries
+		}
+
+		cost = 6.5
+		x = 10
+		y = 2
+		completion_reward = {
+		
+		}
+	}
+
+
+	focus = {
+		id = TRT_profits_from_fishing
+		icon = GFX_pig
+
+		prerequisite = {
+			focus = TRT_create_drydocks
+		}
+
+		cost = 6.5
+		x = 12
+		y = 3
+		completion_reward = {
+		
+		}
+	}
+
+	focus = {
+		id = TRT_harpoon_gun
+		icon = GFX_pig
+
+		prerequisite = {
+			focus = TRT_create_drydocks
+		}
+
+		prerequisite = {
+			focus = TRT_open_up_trade
+		}
+
+		cost = 6.5
+		x = 14
+		y = 3
+		completion_reward = {
+		
+		}
+	}
+
+	focus = {
+		id = TRT_improve_harpoon_gun
+		icon = GFX_pig
+
+		prerequisite = {
+			focus = TRT_harpoon_gun
+		}
+
+		cost = 6.5
+		x = 14
+		y = 4
+		completion_reward = {
+		
+		}
+	}
+
+	focus = {
+		id = TRT_renovate_tret
+		icon = GFX_pig
+
+		prerequisite = {
+			focus = TRT_reinforce_docks
+		}
+
+		cost = 6.5
+		x = 16
+		y = 1
+		completion_reward = {
+		
+		}
+	}
+
+	focus = {
+		id = TRT_open_up_trade
+		icon = GFX_pig
+
+		prerequisite = {
+			focus = TRT_renovate_tret
+		}
+
+		cost = 6.5
+		x = 16
+		y = 2
+		completion_reward = {
+		
+		}
+	}
+
+	focus = {
+		id = TRT_invite_weaponsmiths
+		icon = GFX_pig
+
+		prerequisite = {
+			focus = TRT_open_up_trade
+		}
+
+		cost = 6.5
+		x = 16
+		y = 3
+		completion_reward = {
+		
+		}
+	}
+
+	focus = {
+		id = TRT_control_flooding
+		icon = GFX_pig
+
+		prerequisite = {
+			focus = TRT_renovate_tret
+		}
+
+		cost = 6.5
+		x = 18
+		y = 2
+		completion_reward = {
+		
+		}
+	}
+
+	focus = {
+		id = TRT_build_bridges
+		icon = GFX_pig
+
+		prerequisite = {
+			focus = TRT_control_flooding
+		}
+
+		cost = 6.5
+		x = 18
+		y = 3
+		completion_reward = {
+		
+		}
+	}
+	focus = {
+		id = TRT_install_water_gates
+		icon = GFX_pig
+
+		prerequisite = {
+			focus = TRT_build_bridges
+		}
+
+		cost = 6.5
+		x = 18
+		y = 3
+		completion_reward = {
+		
+		}
+	}
+
+
+
+
+		
+
 }
