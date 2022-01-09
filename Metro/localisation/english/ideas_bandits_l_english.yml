@@ -2,8 +2,15 @@
  bandits:0 "Bandits"
  bandits_desc:0 "Ranging from simple hooligans and thugs to well armed groups. Bandits are loathed by virtually all metro inhabitants; they are ruthless criminals who will do whatever it takes; stealing, killing or torturing to do what they need to survive."
 
+
  ######### Venice Localizaton because of the stupid bug ###############
 
  extensive_flooding_civilian:0 "Extensive Flooding"
  shrimp_invasion:0 "Shrimp Incursions"
  corrupted_economy:0 "Bandit Administration"
+
+######
+
+ dry_station_bandits:0 "Bandits of Dry Station"
+ dry_station_bandits_desc:0 "Thugs well armed and well fortified. Many of the bandits being former Red Line soldiers who either lost faith in Communism, or just grew weary of the conflict and left. Siphoning much firearms and ammunition as they could carry from the Sokolnicheskaya's already dwindling armament supply. Only recently have they claimed the station of Sukharevskaya as their own. Thanks in part to their craven bastard of a Leader. Suffice to say, they're not going anywhere anytime soon."
+
