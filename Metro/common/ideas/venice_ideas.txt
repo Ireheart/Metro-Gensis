@@ -1,7 +1,7 @@
 ideas = {
 	country = {
 		extensive_flooding_civilian = {
-			picture = GFX_idea_flooding
+			picture = GFX_idea
 
 			allowed = {
 			}
@@ -11,6 +11,23 @@ ideas = {
 			modifier = {
                  production_speed_buildings_factor = -0.5
                  consumer_goods_factor = 0.1
+                 global_building_slots_factor = -0.10
+                 
+	        }	
+	    }
+
+
+		partial_flooding_civilian = {
+			picture = GFX_idea
+
+			allowed = {
+			}
+
+			removal_cost = -1
+
+			modifier = {
+                 production_speed_buildings_factor = -0.25
+                 consumer_goods_factor = 0.05
                  global_building_slots_factor = -0.10
                  
 	        }	
@@ -29,6 +46,20 @@ ideas = {
 				local_resources_factor = -0.1
 	        }	
 	    }
+
+		profits_from_fish = {
+			picture = GFX_idea_bandits
+
+			allowed = {
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				local_resources_factor = 0.1
+				consumer_goods_factor = -0.03
+	        }	
+		}
 
          corrupted_economy = {
 			picture = GFX_idea_bandits

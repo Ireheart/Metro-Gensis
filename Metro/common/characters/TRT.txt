@@ -1,0 +1,27 @@
+characters={
+TRT_drydocks = {
+	name = TRT_drydocks
+		portraits = {
+			army = {
+				small = "GFX_idea_RCH_minister_chief_of_police"
+			}
+		}
+		advisor = {
+			slot = industrial_concern
+			idea_token = TRT_drydocks
+			allowed = {
+				original_tag = TRT
+			}
+			traits = { TRT_drydocks }
+
+			available = {
+				has_completed_focus = TRT_create_drydocks
+			}
+
+			cost = 100
+			ai_will_do = {
+				factor = 8.000
+			}
+		}
+	}
+}

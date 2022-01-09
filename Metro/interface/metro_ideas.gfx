@@ -146,13 +146,13 @@ spriteTypes = {
 	}
 
 	spriteType = {
-	name = "GFX_idea_flooding"
+	name = "GFX_idea"
 	texturefile = "gfx/interface/ideas/flooding.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_shrimp_invasion"
-		texturefile = "gfx/interface/ideas/Icon_shrimp_invasion_2.dds"
+		texturefile = "gfx/interface/ideas/hazard_mutant_shrimp.dds"
 	}
 
 	spriteType = {

@@ -1,0 +1,11 @@
+leader_traits = {
+
+TRT_drydocks = {
+		random = no
+        production_speed_industrial_complex_factor = 0.2
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+}

@@ -217,7 +217,31 @@ focus_tree = {
 		x = 14
 		y = 0
 		completion_reward = {
-		
+		311 = {
+		add_extra_state_shared_building_slots = 1
+		    	add_building_construction = {
+    				type = infrastructure
+    				level = 4
+    				instant_build = yes
+				}
+		}
+
+		422 = {
+		add_extra_state_shared_building_slots = 1
+		    	add_building_construction = {
+    				type = infrastructure
+    				level = 4
+    				instant_build = yes
+				}
+		}
+		347 = {
+		add_extra_state_shared_building_slots = 1
+		    	add_building_construction = {
+    				type = infrastructure
+    				level = 4
+    				instant_build = yes
+				}
+		}
 		}
 	}
 
@@ -234,6 +258,31 @@ focus_tree = {
 		x = 12
 		y = 1
 		completion_reward = {
+			311 = {
+		add_extra_state_shared_building_slots = 1
+		    	add_building_construction = {
+    				type = industrial_complex
+    				level = 1
+    				instant_build = yes
+				}
+		}
+
+		422 = {
+		add_extra_state_shared_building_slots = 1
+		    	add_building_construction = {
+    				type = industrial_complex
+    				level = 1
+    				instant_build = yes
+				}
+		}
+		347 = {
+		add_extra_state_shared_building_slots = 1
+		    	add_building_construction = {
+    				type = industrial_complex
+    				level = 1
+    				instant_build = yes
+				}
+		}
 		
 		}
 	}
@@ -266,7 +315,12 @@ focus_tree = {
 		x = 10
 		y = 2
 		completion_reward = {
-		
+		capital_scope = {
+			    add_resource = {
+			        type = oil
+			        amount = 20
+			    }
+			}
 		}
 	}
 
@@ -283,7 +337,7 @@ focus_tree = {
 		x = 12
 		y = 3
 		completion_reward = {
-		
+		add_idea = profits_from_fish
 		}
 	}
 
@@ -335,7 +389,10 @@ focus_tree = {
 		x = 16
 		y = 1
 		completion_reward = {
-		
+		swap_ideas = { 
+  		remove_idea = extensive_flooding_civilian
+  		add_idea = partial_flooding_civilian
+}
 		}
 	}
 
@@ -387,7 +444,7 @@ focus_tree = {
 		}
 	}
 
-	focus = {
+		focus = {
 		id = TRT_build_bridges
 		icon = GFX_pig
 
@@ -398,6 +455,22 @@ focus_tree = {
 		cost = 6.5
 		x = 18
 		y = 3
+		completion_reward = {
+		
+		}
+	}
+
+	focus = {
+		id = TRT_build_bridges
+		icon = GFX_pig
+
+		prerequisite = {
+			focus = TRT_build_bridges
+		}
+
+		cost = 6.5
+		x = 18
+		y = 4
 		completion_reward = {
 		
 		}
