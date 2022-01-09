@@ -337,7 +337,7 @@ focus_tree = {
 		x = 12
 		y = 3
 		completion_reward = {
-		add_idea = profits_from_fish
+		add_ideas = profits_from_fish
 		}
 	}
 
@@ -456,25 +456,34 @@ focus_tree = {
 		x = 18
 		y = 3
 		completion_reward = {
-		
-		}
-	}
-
-	focus = {
-		id = TRT_build_bridges
-		icon = GFX_pig
-
-		prerequisite = {
-			focus = TRT_build_bridges
+				build_railway = {
+					PATH = { 1743 }
+					level = 2
+				}
 		}
 
-		cost = 6.5
-		x = 18
-		y = 4
 		completion_reward = {
-		
+				build_railway = {
+					PATH = { 3536 }
+					level = 2
+				}
+		}
+
+		completion_reward = {
+				build_railway = {
+					PATH = { 1849 }
+					level = 2
+				}
+		}
+
+		completion_reward = {
+				build_railway = {
+					PATH = { 3512 }
+					level = 2
+				}
 		}
 	}
+
 	focus = {
 		id = TRT_install_water_gates
 		icon = GFX_pig
@@ -485,7 +494,7 @@ focus_tree = {
 
 		cost = 6.5
 		x = 18
-		y = 3
+		y = 4
 		completion_reward = {
 		
 		}
