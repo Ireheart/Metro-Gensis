@@ -33,6 +33,21 @@ ideas = {
 	        }	
 	    }
 
+		minimal_flooding_civilian = {
+			picture = GFX_idea
+
+			allowed = {
+			}
+
+			removal_cost = -1
+
+			modifier = {
+                 consumer_goods_factor = 0.03
+                 global_building_slots_factor = -0.10
+                 
+	        }	
+	    }
+
         shrimp_invasion = {
 			picture = GFX_idea_shrimp_invasion
 
