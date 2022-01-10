@@ -1,0 +1,13 @@
+fight_shrimp = {
+    	icon = generic_prospect_for_resources
+        allowed = {
+            tag = TRT
+        }
+
+        available = {
+            has_completed_focus = TRT_send_out_hunting_parties
+        }
+        priority = {
+		    base = 100
+	    }
+    }

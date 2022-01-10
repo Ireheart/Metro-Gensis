@@ -1,0 +1,60 @@
+fight_shrimp = {
+
+
+   
+
+
+
+    attack_shrimp = {
+        icon = decision_generic_intelligence_operation
+		cost = 40 ### Change Cost depending on type of abandoned state? 
+		days_remove = 45
+		days_re_enable = 0
+
+		
+        state_target = yes
+        on_map_mode = map_and_decisions_view
+         target_trigger = {
+         FROM = {
+            is_demilitarized_zone = yes
+        }
+            }
+
+
+        visible = {
+          any_owned_state = {
+                is_demilitarized_zone = yes
+            }
+        }
+
+		available = {
+			has_manpower > 10
+			has_equipment = {
+                infantry_equipment > 9
+            }
+			NOT = { has_country_flag = fighting_shrimp }
+		}
+
+      
+
+		complete_effect = {
+			add_manpower = -10
+		    add_equipment_to_stockpile = {
+		        type = infantry_equipment
+		        amount = -10
+		    }
+			set_country_flag = fighting_shrimp
+		}
+
+		remove_effect = {
+		    random_state = {
+                limit = {
+                    is_demilitarized_zone = yes
+                }
+                set_demilitarized_zone = false
+            }
+			clr_country_flag = fighting_shrimp
+		}
+    }
+}
+

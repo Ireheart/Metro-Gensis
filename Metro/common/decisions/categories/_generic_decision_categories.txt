@@ -7,7 +7,6 @@
     }
     scavenging_expeditions = {
         icon = generic_industry
-
         available = {
             has_tech = gas_mask_2013
         }

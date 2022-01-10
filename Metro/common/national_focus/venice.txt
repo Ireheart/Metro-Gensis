@@ -207,7 +207,7 @@ focus_tree = {
 
 	focus = {
 		id = TRT_reinforce_docks
-		icon = GFX_pig
+		icon = GFX_TRT_renovate_docks
 
 		available = {
 		   
@@ -299,7 +299,14 @@ focus_tree = {
 		x = 12
 		y = 2
 		completion_reward = {
-		
+			347 = {
+			add_extra_state_shared_building_slots = 2
+		    	add_building_construction = {
+    				type = arms_factory
+    				level = 2
+    				instant_build = yes
+				}
+		}
 		}
 	}
 
@@ -357,7 +364,7 @@ focus_tree = {
 		x = 14
 		y = 3
 		completion_reward = {
-		
+	
 		}
 	}
 
@@ -389,6 +396,17 @@ focus_tree = {
 		x = 16
 		y = 1
 		completion_reward = {
+
+				311 = {
+				add_extra_state_shared_building_slots = 1
+		    	add_building_construction = {
+    				type = industrial_complex
+    				level = 1
+    				instant_build = yes
+				}
+		}
+
+
 		swap_ideas = { 
   		remove_idea = extensive_flooding_civilian
   		add_idea = partial_flooding_civilian
@@ -408,7 +426,23 @@ focus_tree = {
 		x = 16
 		y = 2
 		completion_reward = {
-		
+			311 = {
+				add_extra_state_shared_building_slots = 2
+		    	add_building_construction = {
+    				type = industrial_complex
+    				level = 2
+    				instant_build = yes
+				}
+			}
+
+				422 = {
+				add_extra_state_shared_building_slots = 2
+		    	add_building_construction = {
+    				type = industrial_complex
+    				level = 1
+    				instant_build = yes
+				}
+			}
 		}
 	}
 
@@ -424,7 +458,14 @@ focus_tree = {
 		x = 16
 		y = 3
 		completion_reward = {
-		
+				311 = {
+				add_extra_state_shared_building_slots = 2
+		    	add_building_construction = {
+    				type = arms_factory
+    				level = 2
+    				instant_build = yes
+				}
+		}
 		}
 	}
 

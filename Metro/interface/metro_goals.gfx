@@ -404,6 +404,7 @@ spriteTypes = {
 		name = "GFX_RCH_infrastructure"
 		texturefile = "gfx/interface/goals/RCH_infrastructure.dds"
 	}
+
 	SpriteType = {
 		name = "GFX_RCH_lebensraum"
 		texturefile = "gfx/interface/goals/RCH_lebensraum.tga"
@@ -832,4 +833,12 @@ spriteTypes = {
 		name = "GFX_workstation_chemistry_1"
 		texturefile = "gfx/interface/goals/workstation_chemistry_1.dds"
 	}
+
+
+	SpriteType = {
+		name = "GFX_TRT_renovate_docks"
+		texturefile = "gfx/interface/goals/renovate_docks.dds"
+	}
+
+
 }
