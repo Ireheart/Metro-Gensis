@@ -314,7 +314,7 @@ focus_tree = {
 
 	focus = {
 		id = TRT_new_fisheries
-		icon = GFX_pig
+		icon = GFX_TRT_renovate_fisheries
 
 		prerequisite = {
 			focus = TRT_reinforce_docks
@@ -380,7 +380,7 @@ focus_tree = {
 
 	focus = {
 		id = TRT_oil_drilling
-		icon = GFX_pig
+		icon = GFX_TRT_oil_drilling
 
 		prerequisite = {
 			focus = TRT_new_fisheries
@@ -402,7 +402,7 @@ focus_tree = {
 
 	focus = {
 		id = TRT_profits_from_fishing
-		icon = GFX_pig
+		icon = GFX_TRT_profits_from_fish
 
 		prerequisite = {
 			focus = TRT_create_drydocks
@@ -454,7 +454,7 @@ focus_tree = {
 
 	focus = {
 		id = TRT_renovate_tret
-		icon = GFX_pig
+		icon = GFX_TRT_fix_city
 
 		prerequisite = {
 			focus = TRT_reinforce_docks
@@ -593,7 +593,7 @@ focus_tree = {
 
 	focus = {
 		id = TRT_install_water_gates
-		icon = GFX_pig
+		icon = GFX_TRT_floodgates
 
 		prerequisite = {
 			focus = TRT_build_bridges

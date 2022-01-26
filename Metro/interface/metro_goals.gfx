@@ -835,10 +835,6 @@ spriteTypes = {
 	}
 
 
-	SpriteType = {
-		name = "GFX_TRT_renovate_docks"
-		texturefile = "gfx/interface/goals/renovate_docks.dds"
-	}
 
 
 }
