@@ -1,0 +1,118 @@
+﻿l_english:
+ vdn_focus:0 "VDNKh Focus Tree"
+
+ #industrial path
+ VDN_industrial_effort:0 "Industrial Effort"
+ VDN_industrial_effort_desc:0 "Placeholder"
+ VDN_industrial_effort_2:0 "Civilian Effort"
+ VDN_industrial_effort_2_desc:0 "Placeholder"
+ VDN_industrial_effort_3:0 "Hire more Workers"
+ VDN_industrial_effort_3_desc:0 "Placeholder"
+ VDN_clear_the_debris:0 "Clear the Debris"
+ VDN_clear_the_debris_desc:0 "Placehodler"
+ VDN_expand_the_weapons_district:0 "Expand the Weapons District"
+ VDN_expand_the_weapons_district_desc:0 "Placeholder"
+ VDN_hire_more_gunsmiths:0 "Hire more Gunsmiths"
+ VDN_hire_more_gunsmiths_desc:0 "Placeholder"
+
+
+ #historical-ish
+ VDN_a_peaceful_trader:0 "Peaceful Trader"
+ VDN_a_peaceful_trader_desc:0 "Placeholder"
+ VDN_increase_trade_with_our_neighbours:0 "Increase Trade with our Neighbours"
+ VDN_increase_trade_with_our_neighbours_desc:0 "Placeholder"
+ VDN_economic_relationship:0 "Economic Relationship"
+ VDN_economic_relationship_desc:0 "Placeholder"
+ VDN_political_relationship:0 "Political  Relationship"
+ VDN_political_relationship_desc:0 "Placeholder"
+ VDN_the_commonwealth:0 "The Commonwealth"
+ VDN_the_commonwealth_desc:0 "Placeholder"
+ VDN_encourage_closer_friendship:0 "Encourage closer Friendship"
+ VDN_encourage_closer_friendship_desc:0 "Placeholder"
+ VDN_no_longer_friends:0 "We are no longer Friends, we are Brothers!"
+ VDN_no_longer_friends_desc:0 "Placeholder"
+ 
+
+  #a sudden threat
+ VDN_reinforce_the_northern_tunnel:0 "Reinforce the Northern Tunnel"
+ VDN_reinforce_the_northern_tunnel_desc:0 "Placeholder"
+ VDN_unknown_threat:0 "An Unknown Threat"
+ VDN_unknown_threat_desc:0 "Placeholder"
+ VDN_slow_rearmament:0 "Slow Rearmament"
+ VDN_slow_rearmament_desc:0 "Placeholder"
+
+ #Nikholai-path
+ VDN_a_peoples_leader:0 "People changed their Mind"
+ VDN_a_peoples_leader_desc:0 "Placeholder"
+ VDN_raise_awareness:0 "Raise Awareness"
+ VDN_raise_awareness_desc:0 "Placeholder"
+
+ #Sukhoi-path
+ VDN_an_iron_fist:0 "The People's Leader"
+ VDN_an_iron_fist_desc:0 "Placeholder"
+ VDN_hold_a_speech:0 "Hold a Speech"
+ VDN_hold_a_speech_desc:0 "Placeholder"
+
+
+
+ #unhistorical path first focus
+ VDN_a_change_in_course:0 "A Change in Course"
+ VDN_a_change_in_course_desc:0 "Placeholder"
+
+ #Funny Little Path
+ VDN_one_historians_ideals:0 "One Historians Ideals"
+ VDN_one_historians_ideals_desc:0 "Placeholder"
+ VDN_lessons_of_history:0 "Lessons of History"
+ VDN_lessons_of_history_desc:0 "Placeholder"
+ VDN_open_makeshit_theatre:0 "Open a Makeshit Theatre"
+ VDN_open_makeshit_theatre_desc:0 "Placeholder"
+ VDN_enact_first_plays:0 "Enact first Plays"
+ VDN_enact_first_plays_desc:0 "Placeholder"
+
+ #Reich path
+ VDN_approach_the_path_of_fascism:0 "A Strong Leader"
+ VDN_approach_the_path_of_fascism_desc:0 "Placeholder"
+ VDN_our_true_enemy:0 "Our True Enemy"
+ VDN_our_true_enemy_desc:0 "Placeholder"
+ VDN_protest_against_incompetent_leadership:0 "Protest against our Leadership"
+ VDN_protest_against_incompetent_leadership_desc:0 "Placeholder"
+ VDN_rally_the_people:0 "Rally the People"
+ VDN_rally_the_people_desc:0 "Placeholder"
+ VDN_convince_sukhoi:0 "Convince Sukhoi"
+ VDN_convince_sukhoi_desc:0 "Placeholder"
+ VDN_get_rid_of_him:0 "Get rid of Him"
+ VDN_get_rid_of_him_desc:0 "Placeholder"
+ VDN_befriend_the_reich:0 "Befriend the Reich"
+ VDN_befriend_the_reich_desc:0 "Placeholder"
+ VDN_cleanse_the_mutants:0 "Cleanse the Mutants"
+ VDN_cleanse_the_mutants:0 "Placeholder"
+ VDN_expand_into_alekseyevskaya:0 "Expand into Alekseyevskaya"
+ VDN_expand_into_alekseyevskaya_desc:0 "Placeholder"
+ VDN_expand_into_rizhkaya:0 "Expand into Rizhkaya"
+ VDN_expand_into_rizhkaya_desc:0 "Placeholder"
+ VDN_occupy_prospekt_mira_north:0 "Occupy Prospekt Mira North"
+ VDN_occupy_prospekt_mira_north_desc:0 "Placeholder"
+ VDN_deport_outsiders_alekseyevskaya:0 "Deport Outsiders"
+ VDN_deport_outsiders_alekseyevskaya_desc:0 "Placeholder"
+ VDN_deport_outsiders_rizhkaya:0 "Deport Outsiders"
+ VDN_deport_outsiders_rizhkaya_desc:0 "Placeholder"
+
+ VDN_the_ring:0 "The Ring"
+ VDN_the_ring_desc:0 "Placeholder"
+ VDN_prepare_for_conflict:0 "Prepare for Conflict"
+ VDN_prepare_for_conflict_desc:0 "Placeholder"
+
+
+ #Red Line path
+ VDN_approach_the_path_of_communism:0 "Our Glorious Past"
+ VDN_approach_the_path_of_communism_desc:0 "Placeholder"
+ VDN_remind_the_elders:0 "Remind the Elders"
+ VDN_remind_the_elders_desc:0 "Placeholder"
+ VDN_teach_the_young_ones:0 "Teach the young Ones"
+ VDN_teach_the_young_ones_desc:0 "Placeholder"
+ VND_show_our_friends_the_true_way:0 "Show our Friends the True Way"
+ VND_show_our_friends_the_true_way_desc:0 "Placeholder"
+ VND_convince_them_peacefully:0 "Convince them Peacefully"
+ VND_convince_them_peacefully_desc:0 "Placeholder"
+ VND_threaten_them:0 "Threaten Them!"
+ VND_threaten_them_desc:0 "Placeholder"

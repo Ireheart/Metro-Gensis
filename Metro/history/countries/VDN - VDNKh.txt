@@ -9,6 +9,9 @@ set_war_support = 0.4
 
 set_country_flag = is_generic_nation
 
+add_ideas = {
+	vdnk
+}
 
 set_technology = {
 	basic_infantry_equipment_tech = 1
@@ -26,7 +29,10 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	community = 100
+	community = 99.7
+	dictatorial = 0.1
+	oligarch = 0.1
+	council = 0.1
 }
 
 create_country_leader = {
@@ -42,3 +48,15 @@ create_faction = VDNKH		## VDNKH Commonwealth
 add_to_faction = VDN
 add_to_faction = ALK
 add_to_faction = RIZ
+
+
+
+set_variable = { VDN_unrest_stability = -0.45 }
+set_variable = { VDN_unrest_political_power_gain = -0.1 }
+set_variable = { VDN_unrest_war_support = -0.1 }
+set_variable = { VDN_unrest_industrial_capacity = -0.1 }
+set_variable = { VDN_unrest_community_drift = -0.2 }
+set_variable = { VDN_unrest_dictatorial_drift = 0 }
+set_variable = { VDN_unrest_oligarch_drift = 0 }
+set_variable = { VDN_unrest_council_drift = 0 }
+

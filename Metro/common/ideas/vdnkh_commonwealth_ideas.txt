@@ -1,0 +1,50 @@
+ideas = {
+	country = {
+		# VDNKh - Alekseyevskaya - Rizhkaya historical focuses ideas
+
+		economic_relationship = {
+			picture = GFX_idea_vdnk
+			allowed = {
+				tag = VDN
+				tag = ALK
+				tag = RIZ
+			}
+
+			removal_cost = -1
+			modifier = {
+				industrial_capacity_factory = 0.05
+				production_speed_buildings_factor = 0.1
+			}
+
+		}
+
+		political_relationship = {
+			picture = GFX_idea_vdnk
+			allowed = {
+				tag = VDN
+				tag = ALK
+				tag = RIZ
+			}
+
+			removal_cost = -1
+			modifier = {
+				political_power_gain = 0.15
+
+			}
+		}
+
+		the_commonwealth = {
+			picture = GFX_idea_vdnk
+			allowed = {
+				tag = VDN
+				tag = ALK
+				tag = RIZ
+			}
+
+			removal_cost = -1
+			modifier = {
+				
+			}
+		}
+	}
+}

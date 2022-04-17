@@ -3,16 +3,45 @@ ideas = {
 		vdnk = {
 			picture = GFX_idea_vdnk
 
+			
 			allowed = {
+				tag = VDN
 			}
 
 			removal_cost = -1
 
 			modifier = {
+				political_power_gain = 0.1
                 min_export = 0.05
                 stability_factor = 0.05
-                conscription = 0.03
+                #conscription = 0.03
+				research_speed_factor = 0.05
 	        }	
 	    }
+
+		metros_library = {
+
+			picture = GFX_idea_generic_research_bonus
+
+			allowed = {
+				tag = VDN
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = 0.05	
+				research_speed_factor = 0.1
+			}
+		}	
+		
+		sukhoi_shot = {
+			picture = GFX_idea_generic_purge
+
+			modifier = {
+				stability_factor = -0.2
+				political_power_gain = -0.15
+			}
+		}
 	}
 }

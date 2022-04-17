@@ -1,0 +1,27 @@
+
+unrest_in_the_station = {
+	enable = { always = yes }
+	icon = GFX_idea_generic_purge
+	
+	#initial
+	stability_factor = VDN_unrest_stability
+	war_support_factor = VDN_unrest_war_support
+	industrial_capacity_factory = VDN_unrest_industrial_capacity
+	community_drift = VDN_unrest_community_drift
+
+	#future
+	oligarch_drift = VDN_unrest_oligarch_drift
+	dictatorial_drift = VDN_unrest_dictatorial_drift
+	council_drift = VDN_unrest_council_drift
+}
+
+
+
+
+#set_variable = { VDN_unrest_political_power_gain = -0.1 }
+#set_variable = { VDN_unrest_war_support = -0.1 }
+#set_variable = { VDN_unrest_industrial_capacity = -0.1 }
+#set_variable = { VDN_unrest_community_drift = -0.2 }
+#set_variable = { VDN_unrest_dictatorial_drift = 0.1 }
+#set_variable = { VDN_unrest_oligarch_drift = 0.1 }
+#set_variable = { VDN_unrest_council_drift = 0.1 }
