@@ -4,9 +4,11 @@
 
  sukhoi_shot:0 "Sukhoi Shot"
  sukhoi_shot_desc:0 "Sukhoi has been killed by political agitators, deeply effecting the stability of the station."
+ 
  unrest_in_the_station:0 "Unrest in the Station"
  unrest_in_the_station_desc:0 "Recent political unrest has lead to a lowered efficiency in the station."
  unrest_in_the_station_tooltip:0 "Add §Y$unrest_in_the_station$§ which grants: \nStability: §G-45%§ \nWar Support: §G-10%§ \nProduction Efficiency: §G-5%§ \nCommunity Support: §G-0.2§"
+ 
  stronger_leader_tooltip:0 "Modify §Y$unrest_in_the_station$§ \nDespot drift:  §G+0.05"
 
  metros_library:0 "Metro's Library"

@@ -148,6 +148,8 @@
 		}
 		completion_reward = { 
 			add_ideas = economic_relationship
+			ALK = { add_ideas = economic_relationship }
+			RIZ = { add_ideas = economic_relationship }
 
 			if = {limit = {336 = { is_owned_and_controlled_by = VDN }}
 			336 = {
@@ -197,6 +199,8 @@
 
 		completion_reward = {
 			add_ideas = political_relationship
+			ALK = { add_ideas = political_relationship }
+			RIZ = { add_ideas = political_relationship }
 		}
 	}
 
