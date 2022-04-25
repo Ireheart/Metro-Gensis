@@ -28,6 +28,10 @@
  VDN_DEF:0 "VDNKh Commonwealth"
  VDN_ADJ:0 "VDNKh"
 
+ VDC:0 "Northern Commonwealth"
+ VDC_DEF:0 "Northern Commonwealth"
+ VDC_ADJ:0 "Northern Commonwealth"
+
  KTG:0 "Kitay-Gorod"
  KTG_DEF:0 "Chinatown"
  KTG_ADJ:0 "Kitay-Gorod"

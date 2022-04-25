@@ -205,24 +205,6 @@
 	}
 
 	focus = {
-		id = VDN_the_commonwealth
-		cost = 6.5
-
-		relative_position_id = VDN_encourage_closer_friendship
-		x = 0
-		y = 1
-
-		prerequisite = {
-			focus = VDN_encourage_closer_friendship
-		}
-		completion_reward = {
-			remove_ideas = economic_relationship
-			remove_ideas = political_relationship
-			add_ideas = the_commonwealth
-		}
-	}
-
-	focus = {
 		id = VDN_encourage_closer_friendship	
 		cost = 6.5
 		icon = GFX_goal_generic_national_unity
@@ -238,6 +220,66 @@
 		prerequisite = {
 			focus = VDN_political_relationship
 		}	
+
+		completion_reward = {
+			remove_ideas = economic_relationship
+			remove_ideas = political_relationship
+			add_ideas = closer_friendship
+
+			add_timed_idea = {
+				idea = unification
+				days = 180
+			}
+		}
+	}
+
+	focus = {
+		id = VDN_the_commonwealth
+		cost = 12.9
+
+		relative_position_id = VDN_encourage_closer_friendship
+		x = 0
+		y = 1
+
+		available = {
+			NOT = {
+				has_idea = unification
+			}
+		}
+
+		prerequisite = {
+			focus = VDN_encourage_closer_friendship
+		}
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = closer_friendship
+				add_idea = the_commonwealth
+			}
+			set_cosmetic_tag = VDC   
+
+			annex_country = {
+				target = ALK
+			}
+
+			317 = {
+				add_core_of = VDn
+			}
+			7 = {
+				add_core_of = VDn
+			}
+
+			annex_country = {
+				target = RIZ
+			}
+			424 = {
+				add_core_of = VDN
+			}
+
+			8 = {
+				add_core_of = VDN
+			}
+		
+		}
 	}
 
 	#focus = {

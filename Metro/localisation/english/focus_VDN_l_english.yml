@@ -15,13 +15,9 @@
  VDN_industrial_effort_2:0 "Civilian Effort"
  VDN_industrial_effort_2_desc:0 "Recent demands in construction and consumer needs mean that even more resources must go toward civil workshops. Walls can be knocked down, and rooms dug out to ensure there is enough room for more equipment, the only issue now is staffing all of it."
  VDN_industrial_effort_3:0 "Hire more Workers"
-<<<<<<< Updated upstream
  VDN_industrial_effort_3_desc:0 "The need for manpower exists not only on the battlefield, but on the homefront too. Lucrative pay and benefits will lure private workers into our civilian factories, meaning they'll contribute towards the devices of the state."
  VDN_clear_the_debris:0 "Clear the Debris"
  VDN_clear_the_debris_desc:0 "There is a large amount of walkable infrastructure left inside our part of the metro; while it is mostly undamaged by the war, much of it is still unusable due to left over debris. Assigning work crews to clear out this junk will make it a lot easier for people to get between our station and Alexeyevskaya."
-=======
- VDN_industrial_effort_3_desc:0 "Placeholder"
->>>>>>> Stashed changes
  VDN_expand_the_weapons_district:0 "Expand the Weapons District"
  VDN_expand_the_weapons_district_desc:0 "The Weapons district of Exhibition is where most of our makeshift firearms, bullets, and grenades are constructed. If we knock down a few walls and dig out some rooms, we'll be able to expand it with a few more workshops, though we don't have enough specialists to use them all."
  VDN_hire_more_gunsmiths:0 "Hire more Gunsmiths"
