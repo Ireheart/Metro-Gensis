@@ -65,4 +65,8 @@ opinion_modifiers = {
 	support = {
 		value = 25
 	}
+
+	close_allies = {
+		value = 25
+	}
 }

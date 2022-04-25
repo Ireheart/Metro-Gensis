@@ -19,6 +19,14 @@ ideas = {
 	        }	
 	    }
 
+		education = {
+			picture = GFX_idea_generic_research_bonus
+
+			modifier = {
+				research_speed_factor = 0.03
+			}
+		}
+
 		metros_library = {
 
 			picture = GFX_idea_generic_research_bonus

@@ -291,32 +291,18 @@
 					#4221 4192 4214
 		}
 	}
-	focus = {
-		id = VDN_unknown_threat
-		icon = GFX_focus_CZE_german_puppet
-		cost = 6.5
-
-		relative_position_id = VDN_reinforce_the_northern_tunnel
-		x = 0
-		y = 1
-
-		prerequisite = {
-			focus = VDN_reinforce_the_northern_tunnel
-		}
-		completion_reward = { }
-	}
-
+	
 	focus = {
 		id = VDN_a_peoples_leader
 		cost = 6.5
 		icon = GFX_focus_eng_concessions_to_the_trade_unions
 
-		relative_position_id = VDN_unknown_threat
+		relative_position_id = VDN_reinforce_the_northern_tunnel
 		x = -1
 		y = 1
 
 		prerequisite = {
-			focus = VDN_unknown_threat
+			focus = VDN_reinforce_the_northern_tunnel
 		}	
 		mutually_exclusive = {
 			focus = VDN_an_iron_fist
@@ -328,12 +314,12 @@
 		cost = 6.5
 		icon = GFX_goal_generic_political_pressure
 
-		relative_position_id = VDN_unknown_threat
+		relative_position_id = VDN_reinforce_the_northern_tunnel
 		x = 1
 		y = 1
 
 		prerequisite = {
-			focus = VDN_unknown_threat
+			focus = VDN_reinforce_the_northern_tunnel
 		}	
 		mutually_exclusive = {
 				focus = VDN_a_peoples_leader
@@ -462,6 +448,7 @@
 			add_dynamic_modifier = {
 				modifier = unrest_in_the_station
 			}
+			custom_effect_tooltip = unrest_in_the_station_tooltip
 			
 		}
 	}
@@ -711,7 +698,23 @@
 			focus = VDN_convince_sukhoi
 			focus = VDN_get_rid_of_him
 		}
-	}
+
+		completion_reward = {
+			VDN = {
+				remove_opinion_modifier = {
+					target = RCH
+					modifier = mutant
+				} 
+			}
+
+			RCH = {
+				remove_opinion_modifier = {
+					target = VDN
+					modifier = fascist
+				}
+			}
+		}
+	}	
 
 	focus = {
 		id = VDN_cleanse_the_mutants
@@ -882,9 +885,50 @@
 	}
 
 	focus = {
+		id = VDN_close_allies
+		icon = GFX_RCH_russian_unity 
+		cost = 100
+
+		relative_position_id = VDN_occupy_prospekt_mira_north
+		x = -1
+		y = 1
+
+		prerequisite = {
+			focus = VDN_occupy_prospekt_mira_north
+		}
+
+		mutually_exclusive = {
+			focus = VDN_we_stand_alone
+		}
+
+		completion_reward = {
+			359 = {
+				set_demilitarized_zone = no
+			}
+				add_opinion_modifier = {
+					target = RCH
+					modifier = close_allies
+				}
+			
+			RCH = {
+				add_opinion_modifier = {
+					target = VDN
+					modifier = close_allies
+				}
+			}
+		}
+	}
+
+
+
+
+
+
+
+	focus = {
 		id = VDN_we_stand_alone
 
-		cost = 2
+		cost = 100
 		relative_position_id = VDN_occupy_prospekt_mira_north
 		x = 1
 		y = 1
@@ -893,12 +937,236 @@
 			focus = VDN_occupy_prospekt_mira_north
 		}
 
+		mutually_exclusive = {
+			focus = VDN_close_allies
+		}
+
 		completion_reward = {
+			359 = {
+				set_demilitarized_zone = no
+			}
+			HNZ = {
+				declare_war_on = {
+					target = VDN
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = VDN_total_mobilization
+		cost = 6.5
+
+		relative_position_id = VDN_we_stand_alone
+		x = 0
+		y = 1
+
+		prerequisite = {
+			focus = VDN_we_stand_alone
+		}
+
+		completion_reward = {
+			add_ideas = tot_economic_mobilisation
+			random_owned_state = {
+				limit = {
+					NOT = {
+					   has_state_category = pastoral
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+
+			random_owned_state = {
+				limit = {
+					NOT = {
+					   has_state_category = pastoral
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = VDN_death_or_dishonour
+		cost = 6.5
+
+		relative_position_id = VDN_we_stand_alone
+		x = 4
+		y = 1
+
+		prerequisite = {
+			focus = VDN_we_stand_alone
+		}
+
+		completion_reward = {
+			add_ideas = mandatory_service
+		}
+	}
+
+	focus = {
+		id = VDN_protect_rizhkaya
+		cost = 6.5
+
+		relative_position_id = VDN_total_mobilization
+		x = 2
+		y = 0
+
+		prerequisite = {
+			focus = VDN_we_stand_alone
+		}
+
+		completion_reward = {
+			if = {limit = {8 = { is_owned_and_controlled_by = VDN }}
+				8 = {
+					add_building_construction = {
+						type = bunker
+						level = 2
+						province = 4214
+					}
+
+					add_building_construction = {
+						type = bunker
+						level = 2
+						province = 4192
+					}
+
+					add_building_construction = {
+						type = bunker	
+						level = 2
+						province = 4221
+					}
+				}	
+			
+			}
+
+			if = { limit = { 424 = { is_owned_and_controlled_by = VDN }}
+				424 = {
+					add_building_construction = {
+						type = bunker
+						level = 1
+						province = 3062
+					}
+					add_building_construction = {
+						type = bunker2
+						level = 1
+						province = 3062
+					}
+
+					add_building_construction = {
+						type = bunker
+						level = 1
+						province = 3063
+					}
+					add_building_construction = {
+						type = bunker2
+						level = 1
+						province = 3063
+					}
+				}
+			}
 			
 		}
 	}
 
+	focus = {
+		id = VDN_volkssturm
 
+		cost = 12.9
+
+		relative_position_id = VDN_protect_rizhkaya
+		x = 0
+		y = 1
+
+		prerequisite = {
+			focus = VDN_protect_rizhkaya
+		}
+
+		prerequisite = {
+			focus = VDN_total_mobilization
+		}
+
+		prerequisite = {
+			focus = VDN_death_or_dishonour
+		}
+	}
+
+	focus = {
+		id = VDN_damage_hanza_supply
+		cost = 6.5
+
+		relative_position_id = VDN_volkssturm
+		x = 1
+		y = 1
+
+		prerequisite = {
+			focus = VDN_volkssturm
+		}
+
+		available = {
+			has_war_with = HNZ
+			AND = {
+				has_manpower > 24
+			}
+		}
+
+		completion_reward = {
+			add_manpower = -25
+
+			105 = {
+				damage_building = {
+					type = infrastructure
+					damage = 2
+				}
+			}
+
+			258 = {
+				damage_building = {
+					type = infrastructure
+					damage = 2
+				}
+			}
+
+			9 = {
+				damage_building = {
+					type = infrastructure
+					damage = 2
+				}
+			}
+
+			if = { limit = { 359 = { is_owned_and_controlled_by = HNZ }}
+				359 = {
+					damage_building = {
+						type = infrastructure
+						damage = 2
+					}
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = VDN_
+		cost = 6.5
+
+		relative_position_id = VDN_volkssturm
+		x = -1
+		y = 1
+
+		prerequisite = {
+			focus = VDN_volkssturm
+		}
+	}
 
 
 
@@ -1029,6 +1297,63 @@
 					level = 1
 				}
 			}
+		}
+	}
+
+	focus = {
+		id = VDN_educate_the_people
+
+		cost = 6.5
+
+		relative_position_id = VDN_clear_the_debris
+		x = -3
+		y = 1	
+
+		prerequisite = {
+			focus = VDN_clear_the_debris
+		}
+
+		completion_reward = {
+			add_ideas = education
+		}
+	}
+
+	focus = {
+		id = VDN_metros_library
+
+		cost = 6.5
+
+		relative_position_id = VDN_educate_the_people
+		x = 0
+		y = 1
+
+		prerequisite = {
+			focus = VDN_educate_the_people
+		}
+
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = education
+				add_idea = metros_library
+			}
+		}
+	}
+
+	focus = {
+		id = VDN_hire_more_scientists
+
+		cost = 6.5
+
+		relative_position_id = VDN_metros_library
+		x = 0
+		y = 1
+
+		prerequisite = {
+			focus = VDN_metros_library
+		}
+
+		completion_reward = {
+			add_research_slot = 1
 		}
 	}
 
@@ -1168,4 +1493,21 @@
 			}
 		}
 	}
+
+
+
+	focus = {
+		id = VDN_unknown_threat
+		icon = GFX_focus_CZE_german_puppet
+		cost = 6.5
+
+		relative_position_id = VDN_a_change_in_course
+		x = 10
+		y = 0
+
+		
+		completion_reward = { }
+	}
+
+	
 }

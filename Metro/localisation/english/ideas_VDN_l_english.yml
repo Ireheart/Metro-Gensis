@@ -6,10 +6,18 @@
  sukhoi_shot_desc:0 "Sukhoi has been killed by political agitators, deeply effecting the stability of the station."
  
  unrest_in_the_station:0 "Unrest in the Station"
+<<<<<<< Updated upstream
  unrest_in_the_station_desc:0 "Recent political unrest has lead to a lowered efficiency in the station."
  unrest_in_the_station_tooltip:0 "Add §Y$unrest_in_the_station$§ which grants: \nStability: §G-45%§ \nWar Support: §G-10%§ \nProduction Efficiency: §G-5%§ \nCommunity Support: §G-0.2§"
  
  stronger_leader_tooltip:0 "Modify §Y$unrest_in_the_station$§ \nDespot drift:  §G+0.05"
+=======
+ unrest_in_the_station_desc:0 "Placeholder"
+ unrest_in_the_station_tooltip:0 "Stability: §R-45%§ \n§WWar Support:§  §R-10%§ \n§WProduction Efficiency:§  §R-5%§ \n§WCommunity Support:§  §R-0.2§ \n§W§"
+ stronger_leader_tooltip:0 "Modify §Y$unrest_in_the_station$§ §W:§ \n§WDespot drift:§  §G+0.05 \n§W§"
+>>>>>>> Stashed changes
 
+ education:0 "Education"
+ education_desc:0 "Placeholder"
  metros_library:0 "Metro's Library"
  metros_library_desc:0 "Placeholder"
