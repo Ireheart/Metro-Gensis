@@ -17,7 +17,7 @@
  stronger_leader_tooltip:0 "Modify §Y$unrest_in_the_station$§ §W:§ \n§WDespot drift:§  §G+0.05 \n§W§"
 >>>>>>> Stashed changes
 
- education:0 "Education"
- education_desc:0 "Placeholder"
- metros_library:0 "Metro's Library"
- metros_library_desc:0 "Placeholder"
+ education:0 "Expanded Education"
+ education_desc:0 "The opening of a proper school in every station, starting with Exhibition, is the first step towards enlightening the people of the Metro."
+ metros_library:0 "Exhibition Library"
+ metros_library_desc:0 "The accumulation of books on technical, political, mathematical, and scientific knowledge has made it far easier for both natives and travelers to learn about the world around them."
